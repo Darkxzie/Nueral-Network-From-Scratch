@@ -1,7 +1,7 @@
 DevSoc Core Assignments 2025-26
 
 
-Welcome to the repository for the **DevSoc Core Assignment 2025-26**! This project is part of the core application for the **Development Society (DevSoc)** at BITS Pilani.
+Welcome to the repository for the **DevSoc Core Assignment 2025-26**! This project is part of the core application for  **(DevSoc)**.
 
 
 ---
