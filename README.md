@@ -1,56 +1,71 @@
-DevSoc Core Assignments 2025-26
+# DevSoc Core Assignments 2025–26
 
-
-Welcome to the repository for the **DevSoc Core Assignment 2025-26**! This project is part of the core application for  **(DevSoc)**.
-
+Welcome to the repository for the **DevSoc Core Assignment 2025–26**, submitted as part of the application process for the AI/ML vertical of **DevSoc (Developers' Society, BITS Goa)**.
 
 ---
 
+## 🧠 Project Summary
 
-## Project Summary
+This submission contains two core AI/ML projects:
 
-This project focuses on solving a multi-class classification problem to predict an individual’s obesity level based on lifestyle, health, and demographic features & also how to build a Nueral Network from scratch without the use of tensorflow or any libraries. 
+1. **Obesity Risk Prediction** using ensemble machine learning techniques
+2. **MNIST Digit Classification** using a fully manual neural network built from scratch using only NumPy (no ML libraries)
 
-## Notebooks
+---
 
-### 1. DevSoc_Ensemble_Project.ipynb  
-Implements a complete machine learning pipeline using ensemble methods:
+## 📒 Notebooks
 
-- Logistic Regression (Baseline)
-- Random Forest
-- Gradient Boosting
-- XGBoost
-- Soft Voting Ensemble
+### 1. `2024ADPS0026G_ObesityRiskPrediction.ipynb`
 
-Evaluation is performed using accuracy, macro-averaged F1 score, and confusion matrices. Visualizations are included for comparison and interpretation.
+> Predicts an individual’s obesity category based on lifestyle, health, and demographic features.
 
-### 2. DevSoc_NeuralNet_From_Scratch.ipynb  
-Builds a multi-class classification neural network from the ground up using only NumPy.  
 Includes:
+- Data preprocessing and feature encoding
+- Baseline model (Logistic Regression)
+- Ensemble models: Random Forest, Gradient Boosting, XGBoost
+- Soft Voting Ensemble
+- Evaluation using accuracy, F1-score, and confusion matrix
+- Clear visualization of model performance
 
+---
+
+### 2. `2024ADPS0026G_MNIST_Neural_Network_From_Scratch.ipynb`
+
+> A full neural network implementation without using any ML libraries like TensorFlow or PyTorch.
+
+Includes:
 - Forward and backward propagation
-- Softmax output layer
+- ReLU and softmax activation
 - Cross-entropy loss
-- Manual weight updates using gradient descent
+- Manual weight updates with SGD
+- Accuracy, confusion matrix, and weight visualization
+- Trained on MNIST dataset with 97.9%+ test accuracy
 
-This notebook is meant to reinforce fundamental understanding of neural network mechanics.
+---
 
-## Report
+## 📄 Report
 
-The LaTeX report `DevSoc_REPORT.pdf` provides:
+The compiled LaTeX report [`DevSoc_REPORT.pdf`](./DevSoc_REPORT.pdf) includes:
 
-- An overview of projects
-- Explanation of the dataset and all steps
-- Detailed discussion of each model
-- Evaluation metrics with formulas
-- Confusion matrices,result interpretation and any other relevant data
+- Overview of both projects
+- Methodology and implementation details
+- Mathematical formulations
+- Evaluation metrics, results tables, and plots
+- Visualizations (confusion matrices, first-layer weights)
 
-## Google Colab Links
+---
 
-1. [DevSoc Ensemble Project](https://colab.research.google.com/drive/1biMOXV2iZpNHziel52ujApYgp7sIj6Tk)  
-2. [Neural Network From Scratch](https://colab.research.google.com/drive/1ToCk_H3EcrSDSRa1icoB382aAZraj66D)
+## 🔗 Google Colab Links
 
-## Author
+| Project | Link |
+|--------|------|
+| Ensemble Learning | [Open in Colab](https://colab.research.google.com/drive/1biMOXV2iZpNHziel52ujApYgp7sIj6Tk) |
+| Neural Network From Scratch | [Open in Colab](https://colab.research.google.com/drive/1ToCk_H3EcrSDSRa1icoB382aAZraj66D) |
+
+---
+
+## 👨‍💻 Author
 
 **Kamal Kumar Manchenella**  
-BITS Pilani – DevSoc Core Assignment Submission 2025-26
+BITS Pilani, Goa Campus  
+DevSoc Core Assignment Submission – AI/ML Vertical  
