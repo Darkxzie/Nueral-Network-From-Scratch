@@ -9,7 +9,7 @@ Welcome to the repository for the **DevSoc Core Assignment 2025-26**! This proje
 
 ## Project Summary
 
-This project focuses on solving a multi-class classification problem to predict an individual’s obesity level based on lifestyle, health, and demographic features. It demonstrates a thorough application of ensemble learning techniques and also explores neural networks built from first principles.
+This project focuses on solving a multi-class classification problem to predict an individual’s obesity level based on lifestyle, health, and demographic features & also how to build a Nueral Network from scratch without the use of tensorflow or any libraries. 
 
 ## Notebooks
 
