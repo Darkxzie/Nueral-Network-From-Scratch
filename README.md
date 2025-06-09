@@ -3,29 +3,64 @@ DevSoc Core Assignments 2025-26
 
 Welcome to the repository for the **DevSoc Core Assignment 2025-26**! This project is part of the core application for the **Development Society (DevSoc)** at BITS Pilani.
 
-## Contents
 
-- `DevSoc_project.ipynb` : The main Google Colab notebook containing code for preprocessing, training, and evaluating machine learning models on the obesity risk classification task using ensemble techniques.
+---
 
-- `DevSoc_REPORT.pdf` : A detailed LaTeX report explaining the approach, dataset, algorithms used, and results, including metrics and confusion matrices.
 
-- `README.md` : This file. Provides a quick overview of the project, structure, and instructions.
+## Project Summary
 
-## Overview
+This project focuses on solving a multi-class classification problem to predict an individual’s obesity level based on lifestyle, health, and demographic features. It demonstrates a thorough application of ensemble learning techniques and also explores neural networks built from first principles.
 
-This assignment focuses on solving a **multi-class classification problem** to predict an individual's obesity level using health, lifestyle, and demographic features. The objective is to demonstrate understanding and implementation of core machine learning techniques, with special emphasis on **ensemble learning**.
+## Notebooks
 
-The following models were implemented and evaluated:
+### 1. DevSoc_Ensemble_Project.ipynb  
+Implements a complete machine learning pipeline using ensemble methods:
+
 - Logistic Regression (Baseline)
 - Random Forest
 - Gradient Boosting
 - XGBoost
 - Soft Voting Ensemble
 
-Evaluation metrics such as **Accuracy**, **Macro F1 Score**, and **Confusion Matrix** were used to assess model performance.
+Evaluation is performed using accuracy, macro-averaged F1 score, and confusion matrices. Visualizations are included for comparison and interpretation.
 
-> **NOTE:** Run all code cells in the `.ipynb` notebook sequentially for proper functioning and results.
+### 2. DevSoc_NeuralNet_From_Scratch.ipynb  
+Builds a multi-class classification neural network from the ground up using only NumPy.  
+Includes:
 
----
+- Forward and backward propagation
+- Softmax output layer
+- Cross-entropy loss
+- Manual weight updates using gradient descent
 
+This notebook is meant to reinforce fundamental understanding of neural network mechanics.
 
+## Report
+
+The LaTeX report `DevSoc_REPORT.pdf` provides:
+
+- An overview of ensemble learning
+- Explanation of the dataset and preprocessing steps
+- Detailed discussion of each model
+- Evaluation metrics with formulas
+- Confusion matrices and result interpretation
+
+## Assets
+
+All figures used in the report and notebooks—including model performance plots and confusion matrices—are available in the `assets/` folder.
+
+## How to Use
+
+- Open each notebook in Google Colab or your local Jupyter environment.
+- Run the cells sequentially from top to bottom to ensure proper execution.
+- Ensure any necessary files (e.g., images, datasets) are present in the environment.
+
+## Google Colab Links
+
+1. [DevSoc Ensemble Project](https://colab.research.google.com/drive/1biMOXV2iZpNHziel52ujApYgp7sIj6Tk)  
+2. [Neural Network From Scratch](https://colab.research.google.com/drive/1ToCk_H3EcrSDSRa1icoB382aAZraj66D)
+
+## Author
+
+**Kamal Kumar Manchenella**  
+BITS Pilani – DevSoc Core Assignment Submission 2025-26
