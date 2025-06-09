@@ -4,7 +4,7 @@ Welcome to the repository for the **DevSoc Core Assignment 2025–26**, submitte
 
 ---
 
-## 🧠 Project Summary
+##  Project Summary
 
 This submission contains two core AI/ML projects:
 
@@ -13,7 +13,7 @@ This submission contains two core AI/ML projects:
 
 ---
 
-## 📒 Notebooks
+##  Notebooks
 
 ### 1. `2024ADPS0026G_ObesityRiskPrediction.ipynb`
 
@@ -43,7 +43,7 @@ Includes:
 
 ---
 
-## 📄 Report
+##  Report
 
 The compiled LaTeX report [`DevSoc_REPORT.pdf`](./DevSoc_REPORT.pdf) includes:
 
@@ -55,7 +55,7 @@ The compiled LaTeX report [`DevSoc_REPORT.pdf`](./DevSoc_REPORT.pdf) includes:
 
 ---
 
-## 🔗 Google Colab Links
+##  Google Colab Links
 
 | Project | Link |
 |--------|------|
@@ -64,7 +64,7 @@ The compiled LaTeX report [`DevSoc_REPORT.pdf`](./DevSoc_REPORT.pdf) includes:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Kamal Kumar Manchenella**  
 BITS Pilani, Goa Campus  
