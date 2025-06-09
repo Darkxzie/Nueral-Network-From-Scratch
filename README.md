@@ -39,21 +39,11 @@ This notebook is meant to reinforce fundamental understanding of neural network 
 
 The LaTeX report `DevSoc_REPORT.pdf` provides:
 
-- An overview of ensemble learning
-- Explanation of the dataset and preprocessing steps
+- An overview of projects
+- Explanation of the dataset and all steps
 - Detailed discussion of each model
 - Evaluation metrics with formulas
-- Confusion matrices and result interpretation
-
-## Assets
-
-All figures used in the report and notebooks—including model performance plots and confusion matrices—are available in the `assets/` folder.
-
-## How to Use
-
-- Open each notebook in Google Colab or your local Jupyter environment.
-- Run the cells sequentially from top to bottom to ensure proper execution.
-- Ensure any necessary files (e.g., images, datasets) are present in the environment.
+- Confusion matrices,result interpretation and any other relevant data
 
 ## Google Colab Links
 
