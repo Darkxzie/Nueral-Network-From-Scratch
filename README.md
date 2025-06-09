@@ -1,4 +1,4 @@
-DevSoc Core Assignments 2025-26\textsuperscript{\href{https://colab.research.google.com/drive/1biMOXV2iZpNHziel52ujApYgp7sIj6Tk}{[1]}, \href{https://colab.research.google.com/drive/1ToCk_H3EcrSDSRa1icoB382aAZraj66D}{[2]}}
+DevSoc Core Assignments 2025-26
 
 
 Welcome to the repository for the **DevSoc Core Assignment 2025-26**! This project is part of the core application for the **Development Society (DevSoc)** at BITS Pilani.
